@@ -6,6 +6,7 @@ def main():
 def square(n):
     # return n * n # returns square root
     return pow(n, 2)
+
 main()
 
 
