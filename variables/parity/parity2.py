@@ -7,6 +7,7 @@ def main():
     else:
         print("Odd")
 
+# % = remainder
 def is_even(n):
     return n % 2 == 0 
        

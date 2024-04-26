@@ -17,4 +17,6 @@ main()
 
 # note 
 # Pythonic = the act of doing anything in python
-# % = divide 
+# % = divdie in this case but saying if the remainder is 0 then n is even 
+# if the remainder is not 0 then n is odd so you return False 
+ 
