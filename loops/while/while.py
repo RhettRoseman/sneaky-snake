@@ -9,7 +9,7 @@
 
 # declar the variables
 i = 3 
-# start the while loop -- i does not equal 0 then print meow
+# start the while loop -- while i does not equal 0 then print meow
 while i != 0:
     print("meow")
     # count down from 3 and increment by -1 till we get to 0
