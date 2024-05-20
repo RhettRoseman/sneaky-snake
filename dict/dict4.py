@@ -1,4 +1,5 @@
 # dictionary 
+#we can split it up into groups like this#
 students = [
     {
         "name": "Hermione",
@@ -43,3 +44,15 @@ students = [
 for student in students:
     # print out the name, house, and patronus of each student --- make a new line after each loop is run
     print(student["name"], student["house"], student["patronus"], end="\n\n")
+
+# expected output:
+
+    # Hermione Gryffindor Otter
+
+    # Harry Gryffindor Stag
+
+    # Ron Gryffindor Jack Russell Terrier
+
+    # Draco Slytherin None
+
+    # Ernie Hufflepuff Boar

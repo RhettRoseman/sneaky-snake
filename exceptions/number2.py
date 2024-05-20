@@ -1,21 +1,15 @@
-## problem => we want to make sure that if a user puts in a non-integer value then we will be able to keep the program from breaking
+# except in python is used to catch and handle exceptions aka error handling 
+# Name Error handling 
+# Name Errors occur when you try to use a variable that has not been defined.
+# problem with this is that the variable is not defined 
 
-
-## solution => we can use a try/except block to handle the error
-
-try: 
-    x = int(input("What's x?"))
-    print(f"x is {x}")
+# try to find an integer variable from user 
+try:
+    x = int(input("Enter a number: "))  
+# if the variable is not an integer then print message
 except ValueError:
     print("X is not a valid integer")
-
-# expected output 
-
-   # input: 4
-   # output: x is 4
-
-   # input: 4.5
-   # output: X is not a valid integer
-
-   # input: hello
-   # output: X is not a valid integer
+# if the variable is an integer then print message 
+# {x} is the variable from user
+else:
+    print(f"x is {x}")

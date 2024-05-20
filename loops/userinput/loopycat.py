@@ -6,7 +6,7 @@
 def main():
     #  define number as get_number function
     number = get_number()
-    #print meow n times
+    #print meow (n) times
     meow(number)
 
 # define get_number function using while loop
@@ -19,7 +19,7 @@ def get_number():
     # return user input number outside of loop but inside function
     return n
 # print meow n times using for loop
-# function then uses the input from the prompt thrown by get_number function and returns meow times 
+# function then uses the input from the prompt thrown by get_number function and returns meow n times 
 def meow(n):
     for _ in range(n):
         print("meow")
