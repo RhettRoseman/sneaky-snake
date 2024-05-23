@@ -7,6 +7,8 @@ import sys
 # sys.argv is going to comb the command line arguments for a list of commands
 print(" hello, my name is", sys.argv[1])
 
+# note: there is no error handling here, so if you don't enter a name, you will get an error: line 8, in <module>  print(" hello, my name is", sys.argv[1])  ~~~~~~~~^^^ IndexError: list index out of range
+# for error handling, see argv1.py
 # exampe input:
 # python3 argv.py Jackie Chan 
 # expected output:
