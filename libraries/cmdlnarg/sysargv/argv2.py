@@ -1,6 +1,6 @@
 import sys 
 
-# we are going to ise an if elif loop here
+# we are going to u se an if elif loop here
 # if the length of the user input is less than 2
 if len(sys.argv) <  2:
     # using the if statement to print out the error message
