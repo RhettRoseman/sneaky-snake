@@ -8,7 +8,7 @@ def main():
 def test_square():
     # we use the try and except operators to catch the AssertionError
     # we assert that the function square(2) returns 4
-    # if not the error will print the error message
+    # if not print the error message
     try:
         assert square(2) == 4
     except AssertionError:
