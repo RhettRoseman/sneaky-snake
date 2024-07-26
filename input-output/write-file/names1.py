@@ -15,4 +15,4 @@ file.write(name)
 # will close and save the file object
 file.close()
 
-#This code only save the last name from user input to the file
+#This code only save the last name from user input to the file``
