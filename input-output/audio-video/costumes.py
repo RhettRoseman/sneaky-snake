@@ -11,6 +11,5 @@ for arg in sys.argv[1:]:
     image = Image.open(arg)
     images.append(image)
 # save the images to a new file called costumes.gif    
-images[0].save(
-    "costumes.gif", save_all=True, append_images=images[1:], loop=0, duration=200
-)
+output_file = "costumes.gif"
+images[0].save(output_file, save_all=True, append_images=images[1:], loop=2, duration=200)
