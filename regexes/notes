@@ -1,3 +1,15 @@
 # regexes = regular expressions
 # valdiates fields 
 # used with emails for example
+# . = any character except a new line
+# * = 0 or more repitions
+# + = 1 or more repitions
+# {m} = m repitions ex: 3 repitions where m = 3
+# {m,n} = m-n repitions ex:1-5 repitions where m = 1 and n = 5
+# ^ = matches start of the string
+# $ = matches end of the string just before the new line at the end of the string
+# [] = set of characters
+# [^] = completing the set
+# \w = word character and undersocore and numbers
+# /W = not a word character
+# | = either a or b
