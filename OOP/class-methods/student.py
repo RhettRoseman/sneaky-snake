@@ -1,4 +1,3 @@
-
 # OOP
 class Student:
     
@@ -17,17 +16,22 @@ class Student:
         return f"{self.name} from {self.house}"        
     
     # we want to make srue that harry and the other students from Hogwarts have the right patronus charms
-
+    # classmethod is a decorator that allows the function to be called on the class itself, not just on an instance of the class 
+    @classmethod
+    def get(cls):
+        name = input("Name:")
+        house = input("House:")
+        return cls(name, house)  # return class name and house object
 # main function prints out the name and house of the student.   
 def main():
-    student = get_student()
+    student = Student.get() # <----- using the class method to construct the Student object
     print(student)
 # get student function prints out the name and house of the student
-def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    student = Student(name, house) # <----- constructor call constructs the Student object
-    return student # <----- return the student variable that is the Student object
+# def get_student():
+#     name = input("Name: ")
+#     house = input("House: ")
+#     student = Student(name, house) # <----- constructor call constructs the Student object
+#     return student # <----- return the student variable that is the Student object
 
 if __name__ == "__main__":
     main()
